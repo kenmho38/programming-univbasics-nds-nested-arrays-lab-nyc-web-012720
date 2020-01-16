@@ -16,21 +16,7 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-ENNET_HOUSE = [
-  "Don Gately",
-  "Joelle van Dyne",
-  "Pat M.",
-  "Kate Gompert",
-  "Bruce Green"
-]
 
-ENFIELD_TENNIS_ACADEMY = [
-  "Hal Incandenza",
-  "Lyle",
-  "Gerhard Schtitt",
-  "Mario Incandenza",
-  "Michael Pemulis"
-]
 
 def assembled_matrix
   # Build an array that contains (or, "nests") the residents of The Ennet House

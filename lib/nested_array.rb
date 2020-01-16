@@ -21,7 +21,7 @@ CONVENTIONAL_PRODUCE = [
 def assembled_matrix
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
-  [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+  [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
 end
 
 def array_literal_matrix
@@ -41,4 +41,4 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   matrix[row][column] = new_value
   matrix
-end
+end 

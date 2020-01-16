@@ -1,34 +1,32 @@
 # Examples inspired by U. S. National Organic Standards
 
-ORGANIC_PRODUCE = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
+ENNET_HOUSE = [
+  "Don Gately",
+  "Joelle van Dyne",
+  "Pat M.",
+  "Kate Gompert",
+  "Bruce Green"
 ]
 
-CONVENTIONAL_PRODUCE = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
+ENFIELD_TENNIS_ACADEMY = [
+  "Hal Incandenza",
+  "Lyle",
+  "Gerhard Schtitt",
+  "Mario Incandenza",
+  "Michael Pemulis"
 ]
-
-
 
 def assembled_matrix
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
-  [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 end
 
 def array_literal_matrix
   # Using Array literal syntax only, build a nested array that uses the data in
   # inside the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
-  [ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]
+  [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
 end
 
 def matrix_lookup(matrix, row, column)
@@ -41,4 +39,4 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
   matrix[row][column] = new_value
   matrix
-end 
+end
